@@ -14,100 +14,55 @@
       "!type": "External",
       "file": [
         "forms",
-        "customerAdd",
+        "customerUpdate",
         "Elements",
-        "btnShowCust.json"
+        "txtAllCust.json"
       ]
     },
     {
       "!type": "External",
       "file": [
         "forms",
-        "customerAdd",
+        "customerUpdate",
         "Elements",
-        "txtCust.json"
+        "inptOldName.json"
       ]
     },
     {
       "!type": "External",
       "file": [
         "forms",
-        "customerAdd",
+        "customerUpdate",
         "Elements",
-        "inptName.json"
+        "inptNewName.json"
       ]
     },
     {
       "!type": "External",
       "file": [
         "forms",
-        "customerAdd",
+        "customerUpdate",
         "Elements",
-        "inptStreet.json"
+        "btnEnter.json"
       ]
     },
     {
       "!type": "External",
       "file": [
         "forms",
-        "customerAdd",
+        "customerUpdate",
         "Elements",
-        "inptCity.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "customerAdd",
-        "Elements",
-        "inptState.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "customerAdd",
-        "Elements",
-        "inptZipcode.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "customerAdd",
-        "Elements",
-        "btnSubmit.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "customerAdd",
-        "Elements",
-        "lblMessage3.json"
-      ]
-    },
-    {
-      "!type": "External",
-      "file": [
-        "forms",
-        "customerAdd",
-        "Elements",
-        "lblMessage4.json"
+        "lblMessage5.json"
       ]
     }
   ],
   "class": "",
-  "designHeight": 700,
-  "designWidth": 500,
+  "designHeight": 0,
+  "designWidth": 0,
   "expanded_pmp": null,
   "fullScreen": "true",
-  "height": "1000",
-  "id": "customerAdd",
+  "height": 460,
+  "id": "customerUpdate",
   "language": "JavaScript",
   "left": "0",
   "locked": false,
@@ -124,5 +79,5 @@
   "style": "",
   "theme": "",
   "top": "0",
-  "width": "1000"
+  "width": 320
 }
