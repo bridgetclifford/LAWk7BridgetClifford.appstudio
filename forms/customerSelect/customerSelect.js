@@ -4,13 +4,14 @@ let results = ""
 let pw = "Cr8tonbluj!" 
 let netID = "brc34170"
 let databaseSchema = "brc34170" 
+let allCustomerData = []
 
 customerSelect.onshow=function(){
   lblCustomer.style.height = "200px"
 }
 
 btnCustomer.onclick=function(){
-  query = "SELECT * FROM pets"
+  query = "SELECT * FROM customer"
     req = Ajax("https://ormond.creighton.edu/courses/375/ajax-connection.php", "POST", "host=ormond.creighton.edu&user=brc34170&pass=" + pw + "&database=" + databaseSchema + "&query=" + query)
     if (req.status == 200) { //transit trip worked. 
         results = JSON.parse(req.responseText)
