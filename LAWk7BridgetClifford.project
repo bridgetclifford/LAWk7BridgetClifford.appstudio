@@ -33,6 +33,17 @@
             "customerDelete",
             "customerDelete.json"
           ]
+<<<<<<< Updated upstream
+=======
+        },
+        {
+          "!type": "External",
+          "file": [
+            "forms",
+            "customerAdd",
+            "customerAdd.json"
+          ]
+>>>>>>> Stashed changes
         }
       ],
       "configxml": null,
@@ -54,7 +65,11 @@
       "eslintRules": null,
       "expanded_pmp": null,
       "extraheaders": null,
+<<<<<<< Updated upstream
       "firstform": "customerDelete",
+=======
+      "firstform": "customerAdd",
+>>>>>>> Stashed changes
       "fontFamily": "system",
       "googlePlayKey": "certificates/google.json",
       "googlePlayTrack": "production",
